@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <!-- Font Awesome CDN for Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <title>Justice Legal</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <section>
+            <div class="navbar bg-white  px-2 md:px-36 md:py-8">
+
+                <!-- Navbar Start (Logo + Mobile Menu) -->
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <button tabindex="0" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </button>
+                        <ul tabindex="0" class="menu dropdown-content z-[1] mt-3 w-52 bg-white p-2 shadow rounded-box">
+                            <li><a>Home</a></li>
+                            <li><a>Services</a></li>
+                            <li><a>Cases</a></li>
+                            <li><a>Blog</a></li>
+                            <li><a>Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="navbar-start flex items-center space-x-1">
+                        <a href="#" class="flex items-center">
+                            <img src="./legal-solution-resources/images/logo2.png" alt="Logo" class="h-12">
+
+                        </a>
+                    </div>
+
+                </div>
+
+                <!-- Navbar Center (Desktop Menu) -->
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal text-gray-700 space-x-6">
+                        <li><a class="hover:text-[#a47b56] transition">Home</a></li>
+                        <li>
+                            <a class="flex items-center hover:text-[#a47b56] transition">
+                                Services
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" viewBox="0 -960 960 960"
+                                    fill="gray">
+                                    <path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="flex items-center hover:text-[#a47b56] transition">
+                                Cases
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" viewBox="0 -960 960 960"
+                                    fill="gray">
+                                    <path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="flex items-center hover:text-[#a47b56] transition">
+                                Blog
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" viewBox="0 -960 960 960"
+                                    fill="gray">
+                                    <path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="flex items-center hover:text-[#a47b56] transition">
+                                Contact Us
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" viewBox="0 -960 960 960"
+                                    fill="gray">
+                                    <path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z" />
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Navbar End (Button) -->
+                <div class="navbar-end">
+                    <a
+                        class="btn bg-[#a47b56] text-white text-sm px-5 py-2 rounded-md shadow-md hover:bg-[#8b6449] transition">
+                        Free Consultation
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--We Provide Effective Legal Solutions part-->
+        <section class=" relative bg-cover bg-center h-[500px] mx-2 lg:mx-32 rounded-lg overflow-hidden"
+            style="background-image: url(./legal-solution-resources/images/banner.png);">
+            <div style="position: absolute; inset: 0; background-color: rgba(0, 0, 0, 0.5);"></div>
+            <div class="relative container mx-auto text-center text-white py-24 px-6 lg:px16">
+                <h1 class="text-5xl md:text-7xl font-bold py-3">We Provide Effective <br> Legal Solutions</h1>
+                <p class="mt-4 text-lg">We are committed to delivering expert legal advice and services to help you
+                    navigate any legal challenges.</p>
+                <form action="#" method="GET" class="mt-6 flex justify-center">
+                    <input type="text" name="service" placeholder="Search your services"
+                        class="px-4 py-2 w-80 md:w-96 rounded-lg border-2 border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#a47b56]">
+                    <button type="submit"
+                        class="bg-[#a47b56] text-white px-6 py-2 rounded-lg ml-4 hover:bg-[#8b6449] transition">Search</button>
+                </form>
+            </div>
+
+        </section>
+    </header>
+
+    <main class="container mx-auto px-6 py-14">
+        <section class="text-center py-18 md:px-16 md:mx-24 md:gap-none">
+            <h2 class="text-3xl font-semibold mb-6">The Legal Practice Area</h2>
+            <p class="text-lg mb-10 text-gray-600">Our legal practice areas cover a wide range of services to help individuals and businesses navigate their legal challenges effectively. We provide expert advice, representation, and guidance across various sectors, ensuring you receive personalized and high-quality legal assistance.</p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 px-4 ">
+                <div class="bordar card w-full bg-gradient-to-r from-gray-100 via-[#a47a5620] to-[#fff] shadow-xl rounded-sm border transform transition duration-300 hover:scale-105">
+                    <div class="card-body text-center py-8 flex flex-col items-center">
+                        <div class="text-center text-4xl text-[#a47b56] mb-4 transform transition duration-300 hover:scale-105">
+                            <img src="./legal-solution-resources/images/business.png" alt="Business Law" class="mx-auto">
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">Business Law</h3>
+                        <p class="text-gray-600 mb-6">We assist businesses with legal matters, including contracts, corporate governance, mergers, and intellectual property protection to ensure your business stays compliant and protected.</p>
+                        <a href="#" class="btn btn-outline text-[#a47b56] hover:bg-[#a47b56] hover:text-white inline-block py-4 px-4 rounded-full transform transition duration-300 hover:scale-110">→</a>
+                    </div>
+                </div>
+                <div class="card w-full bg-gradient-to-r from-gray-100 via-[#a47a5620] to-[#fff] shadow-xl rounded-sm border transform transition duration-300 hover:scale-105">
+                    <div class="card-body text-center py-8 flex flex-col items-center">
+                        <div class="text-4xl text-[#a47b56] mb-4 transform transition duration-300 hover:scale-105">
+                            <img src="./legal-solution-resources/images/criminal.png" alt="Criminal Law" class="mx-auto">
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">Criminal Law</h3>
+                        <p class="text-gray-600 mb-6">Our team provides defense and counsel for those facing criminal charges. We work tirelessly to protect your rights and achieve the best possible outcome for your case.</p>
+                        <a href="#" class="btn btn-outline text-[#a47b56] hover:bg-[#a47b56] hover:text-white inline-block py-4 px-4 rounded-full transform transition duration-300 hover:scale-110">→</a>
+                    </div>
+                </div>
+                <div class="card w-full bg-gradient-to-r from-gray-100 via-[#a47a5620] to-[#fff] shadow-xl rounded-sm border transform transition duration-300 hover:scale-105">
+                    <div class="card-body text-center py-8 flex flex-col items-center">
+                        <div class="text-4xl text-[#a47b56] mb-4 transform transition duration-300 hover:scale-105">
+                            <img src="./legal-solution-resources/images/child.png" alt="Child Support" class="mx-auto">
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">Child Support</h3>
+                        <p class="text-gray-600 mb-6">We provide assistance in child support matters, ensuring fair and reasonable arrangements for parents and children, in accordance with family law regulations.</p>
+                        <a href="#" class="btn btn-outline text-[#a47b56] hover:bg-[#a47b56] hover:text-white inline-block py-4 px-4 rounded-full transform transition duration-300 hover:scale-110">→</a>
+                    </div>
+                </div>
+                <div class="card w-full bg-gradient-to-r from-gray-100 via-[#a47a5620] to-[#fff] shadow-xl rounded-sm border transform transition duration-300 hover:scale-105">
+                    <div class="card-body text-center py-8 flex flex-col items-center">
+                        <div class="text-4xl text-[#a47b56] mb-4 transform transition duration-300 hover:scale-105">
+                            <img src="./legal-solution-resources/images/education.png" alt="Education Law" class="mx-auto">
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">Education Law</h3>
+                        <p class="text-gray-600 mb-6">Our legal team specializes in education law, advising educational institutions, students, and parents on matters such as enrollment, discrimination, and special education rights.</p>
+                        <a href="#" class="btn btn-outline text-[#a47b56] hover:bg-[#a47b56] hover:text-white inline-block py-4 px-4 rounded-full transform transition duration-300 hover:scale-110">→</a>
+                    </div>
+                </div>
+                <div class="card w-full bg-gradient-to-r from-gray-100 via-[#a47a5620] to-[#fff] shadow-xl rounded-sm border transform transition duration-300 hover:scale-105">
+                    <div class="card-body text-center py-8 flex flex-col items-center">
+                        <div class="text-4xl text-[#a47b56] mb-4 transform transition duration-300 hover:scale-105">
+                            <img src="./legal-solution-resources/images/divorce.png" alt="Divorce Law" class="mx-auto">
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">Divorce Law</h3>
+                        <p class="text-gray-600 mb-6">We help clients navigate divorce proceedings with compassion and professionalism, ensuring fair settlements regarding asset division, alimony, and custody arrangements.</p>
+                        <a href="#" class="btn btn-outline text-[#a47b56] hover:bg-[#a47b56] hover:text-white inline-block py-4 px-4 rounded-full transform transition duration-300 hover:scale-110">→</a>
+                    </div>
+                </div>
+                <div class="card w-full bg-gradient-to-r from-gray-100 via-[#a47a5620] to-[#fff] shadow-xl rounded-sm border transform transition duration-300 hover:scale-105">
+                    <div class="card-body text-center py-8 flex flex-col items-center">
+                        <div class="text-4xl text-[#a47b56] mb-4 transform transition duration-300 hover:scale-105">
+                            <img src="./legal-solution-resources/images/tax.png" alt="Tax Law" class="mx-auto">
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">Tax Law</h3>
+                        <p class="text-gray-600 mb-6">We provide comprehensive tax law services, offering advice on tax planning, disputes, and compliance with both state and federal tax regulations.</p>
+                        <a href="#" class="btn btn-outline text-[#a47b56] hover:bg-[#a47b56] hover:text-white inline-block py-4 px-4 rounded-full transform transition duration-300 hover:scale-110">→</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+        </section>
+    </main>
+
+    <footer class="py-6 text-center text-gray-600">
+        © 2025 Justice Legal Solutions. All Rights Reserved.
+    </footer>
+</body>
+
+</html>
